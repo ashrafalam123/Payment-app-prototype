@@ -10,9 +10,9 @@
 
   Then these 2 databases were joined with the criteria on user id that is created in the mongoDB database
 
-# Routing
+# Server
 
-**Express :** Used the express library to create router and send neccessary requests to corresponding routes. There were 2 routes created -- one that handles the _user_ requests and another 
+**Node :** Used the express library to create router and send neccessary requests to corresponding routes. There were 2 routes created -- one that handles the _user_ requests and another 
 that handles the _account_ requests. This was done in order to reduce the load on each router and additionally if any subsequent versions are created then the previous version will still run
 provided we add an additional router
 
